@@ -1,42 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Starter Scaffold
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A minimal, unmodified Nuxt project scaffold (currently resolving to Nuxt 4 per the lockfile) used as a starting point for future work — no application code beyond the default welcome page yet.
 
-## Setup
+## Tech Stack
 
-Make sure to install the dependencies:
+- Nuxt
+- Vue, TypeScript
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+## Quickstart
 
 ```bash
-npm run dev
+bun install
+bun run dev
 ```
 
-## Production
-
-Build the application for production:
+The dev server runs on `http://localhost:3000`.
 
 ```bash
-npm run build
+bun run build      # production build
+bun run generate   # static site generation
+bun run preview    # preview production build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
